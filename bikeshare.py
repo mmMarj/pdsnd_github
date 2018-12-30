@@ -146,7 +146,7 @@ def main():
         df['Start Month'] = df['Start Time'].dt.month
         df['Start Day of Week'] = df['Start Time'].dt.weekday_name
 
-        # Applying the required filters
+        # Applying the required filters.
         if month != 0:
             df = df[df['Start Month'] == month]
 
@@ -232,7 +232,7 @@ def main():
                user_types[1] / total_users * 100))
 
         # There is no data about gender and year of birth for Washington, so
-        # if this city is selected there is no further statistics to present
+        # if this city is selected there is no further statistics to present.
         if city == 'Washington':
             print('Unfortunately we could not collect further data on users in'
                   ' Washington.')
@@ -319,7 +319,7 @@ def main():
                         return_date = ('{} {} {}'.format(df.iloc[ex_index, -4],
                                        df.iloc[ex_index, -2], df.iloc[ex_index,
                                        -3]))
-                
+
                 except IndexError or ValueError:
                     print(Fore.MAGENTA + '\nOups! You have already seen all '
                           'the available examples.' + Style.RESET_ALL)
@@ -370,7 +370,7 @@ def main():
                             ex_index_max = ex_index + 5
                             continue
 
-        # Offering to restart
+        # Offering to restart.
         restart = str(input('Do you want to see another set of data? '))
         restart = restart.lower()
         while restart not in ('yes', 'y', 'no', 'n'):
