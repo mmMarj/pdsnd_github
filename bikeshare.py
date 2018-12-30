@@ -319,7 +319,7 @@ def main():
                         return_date = ('{} {} {}'.format(df.iloc[ex_index, -4],
                                        df.iloc[ex_index, -2], df.iloc[ex_index,
                                        -3]))
-                # error message when all examples have been seen
+                
                 except IndexError or ValueError:
                     print(Fore.MAGENTA + '\nOups! You have already seen all '
                           'the available examples.' + Style.RESET_ALL)
