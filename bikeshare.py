@@ -320,6 +320,7 @@ def main():
                                        df.iloc[ex_index, -2], df.iloc[ex_index,
                                        -3]))
 
+                # Displaying an error message when all examples have been seen
                 except IndexError or ValueError:
                     print(Fore.MAGENTA + '\nOups! You have already seen all '
                           'the available examples.' + Style.RESET_ALL)
@@ -383,6 +384,7 @@ def main():
             else:
                 continue
 
+        # Displaying a short message before exiting the programme
         if restart in ('no', 'n'):
             print(Fore.CYAN + '\nBye!' + Style.RESET_ALL)
             break;
