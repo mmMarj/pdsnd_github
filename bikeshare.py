@@ -104,7 +104,7 @@ def main():
 
         if day not in days and day != '':
              while day not in days:
-                 print(Fore.RED + '\nSorry this is not a valid input.'
+                 print(Fore.RED + '\nSorry this is not a valid input :('
                        + Style.RESET_ALL)
                  day = str(input('Please type a day of the week, or press '
                                  'enter to proceed without filtering: '))
