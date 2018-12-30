@@ -1,15 +1,21 @@
 ### Date created
-Include the date you created this project and README file.
+Project started 2018/12/12
 
 ### Project Title
-Replace the Project Title
+Bikeshare project
 
 ### Description
-Describe what your project is about and what it does
+This project is a part of the Udacity Nanodegree Programming for Data Science.
+It offers to analyze data from a bike rental service and display predefined statistics. The program first asks to select a city (Chicago, New York and Washington), then offers to filter the data by month and/or by a day of the week. It is also possible to see some example of raw data.
 
 ### Files used
-Include the files used
+Data:
+chicago.csv
+new_york_city.csv
+washington.csv
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
-
+For this project I used help from:
+ * Stackoverflow
+ * pypi.org/project/colorama
+ * www.thispointer.com/python-how-to-find-keys-by-value-in-dictionary/
