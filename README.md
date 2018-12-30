@@ -1,15 +1,18 @@
 ### Date created
-Include the date you created this project and README file.
+Project started 2018/12/12
 
 ### Project Title
-Replace the Project Title
+Bikeshare project
 
 ### Description
-Describe what your project is about and what it does
+This project is a part of the Udacity Nanodegree Programming for Data Science.
+It offers to display some predefined analyses performed on data from a bike rental service.
 
 ### Files used
-Include the files used
+
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
-
+For this project I used help from:
+ * Stackoverflow
+ * pypi.org/project/colorama
+ * www.thispointer.com/python-how-to-find-keys-by-value-in-dictionary/
