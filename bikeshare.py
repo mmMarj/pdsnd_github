@@ -234,7 +234,7 @@ def main():
         # There is no data about gender and year of birth for Washington, so
         # if this city is selected there is no further statistics to present.
         if city == 'Washington':
-            print('Unfortunately we could not collect further data on users in'
+            print('We were not allowed to collect further data on users in'
                   ' Washington.')
         else:
         # Distribution of gender.
