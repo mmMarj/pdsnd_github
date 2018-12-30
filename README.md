@@ -6,7 +6,7 @@ Bikeshare project
 
 ### Description
 This project is a part of the Udacity Nanodegree Programming for Data Science.
-It offers to display some predefined analyses performed on data from a bike rental service.
+It offers to analyze data from a bike rental service and display predefined statistics. The program first asks to select a city (Chicago, New York and Washington), then offers to filter the data by month and/or by a day of the week. It is also possible to see some example of raw data.
 
 ### Files used
 Data:
