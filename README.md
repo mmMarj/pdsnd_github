@@ -9,7 +9,10 @@ This project is a part of the Udacity Nanodegree Programming for Data Science.
 It offers to display some predefined analyses performed on data from a bike rental service.
 
 ### Files used
-
+Data:
+chicago.csv
+new_york_city.csv
+washington.csv
 
 ### Credits
 For this project I used help from:
